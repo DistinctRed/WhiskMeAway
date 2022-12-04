@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  font-family: 'Cormorant Upright', serif;
+}
+
+
+div.nyc {
+  background: url(../images/york.jpg) no-repeat fixed center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.uae {
+  background: url(../images/emirateTwo.jpg) no-repeat fixed center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.fra {
+  background: url(../images/franceTwo.jpg) no-repeat fixed center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.tok {
+  background: url(../images/tokyoTwo.jpg) no-repeat fixed center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header.nyc {
+  text-align: center;
+  color: #fff;
+  padding: 1em 1em 5em;
+  text-shadow: 3px 3px 0px #333;
+  position: sticky;
+  top: 100px;
+
+}
+
+header.uae {
+  text-align: center;
+  color: #F2AA80;
+  text-shadow: 3px 3px 0px #333;
+  position: sticky;
+  top: 100px;
+
+}
+
+header.fra {
+  text-align: center;
+  color: #BF1F2C;
+  padding: 1em 1em 5em;
+  text-shadow: 3px 3px 0px #333;
+  position: sticky;
+  top: 100px;
+
+}
+
+header.tok {
+  text-align: center;
+  color: orange;
+  padding: 1em 1em 5em;
+  text-shadow: 3px 3px 0px #333;
+  position: sticky;
+  top: 100px;
+
+}
+
+header h1 {
+  font-size: 10vmax;
+}
+
+img {
+  width: 100%;
+}
+
+figure.extra {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+#newyork {
+  background-image: linear-gradient(to bottom right, #89ABD9, #F2CB05);
+ 
+
+
+}
+
+#emirate {
+  background-image: linear-gradient(to bottom right, #F29544, #688C86);
+}
+
+#france {
+  background-image: linear-gradient(to bottom right, #3F5259, #8C1155);
+}
+
+#tokyo {
+  background-image: linear-gradient(to bottom right, #8C1C03, #B0D9D9);
+}
+
+article {
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+article.twoParterNyc {
+  column-count: 2;
+  column-rule: solid 1px #777;
+  column-gap: 2em;
+  color: #40211E;
+}
+
+article.oneParterNyc {
+  color: #40211E;
+}
+
+article.twoParterUae {
+  column-count: 2;
+  column-rule: solid 1px #777;
+  column-gap: 2em;
+  color: #40211E;
+}
+
+article.oneParterUae {
+  color: #40211E;
+}
+
+article.twoParterFra {
+  column-count: 2;
+  column-rule: solid 1px #777;
+  column-gap: 2em;
+  color: #A7C1D9;
+}
+
+article.oneParterFra {
+  color: #A7C1D9;
+}
+
+article.twoParterTok {
+  column-count: 2;
+  column-rule: solid 1px #777;
+  column-gap: 2em;
+  color: #40211E;
+}
+
+article.oneParterTok {
+  color: #40211E;
+}
+
+footer {
+  text-align: center;
+  background-color: #111;
+}
+
+a.place:link {
+  color: #fff;
+}
+
+a.place:visited {
+  color: #fff;
+}
+
+a.place:link {
+  color: #eee;
+}
+
+footer a:link {
+  color: #fff;
+  padding: .5em 1em;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer a:visited {
+  color: #fff;
+}
+
+footer a:hover {
+  background: #fff;
+  color: #111;
+}
+
+footer a:active {
+  color: #111;
+}
+
+footer a.current {
+  text-decoration: underline;
+}
+
+.flexParent {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flexParent article.nyc {
+  color: #40211E;
+  padding: 2em;
+  min-width: 280px;
+  flex: 2;
+
+}
+
+.flexParent aside.nyc {
+  color: #40211E;
+  padding: 2em;
+  min-width: 280px;
+  flex: 2;
+
+}
+
+.flexParent article.emirate {
+  color: #40211E;
+  padding: 2em;
+  min-width: 280px;
+  flex: 2;
+
+}
+
+.flexParent aside.emirate {
+  color: #40211E;
+  padding: 2em;
+  min-width: 280px;
+  flex: 2;
+
+}
+
+.flexParent article.france {
+  color: #A7C1D9;
+  padding: 2em;
+  min-width: 280px;
+  flex: 2;
+
+}
+
+.flexParent aside.france {
+  color: #A7C1D9;
+  padding: 2em;
+  min-width: 280px;
+  flex: 2;
+
+}
+
+.flexParent article.tokyo {
+  color: #40211E;
+  padding: 2em;
+  min-width: 280px;
+  flex: 2;
+
+}
+
+.flexParent aside.tokyo {
+  color: #40211E;
+  padding: 2em;
+  min-width: 280px;
+  flex: 2;
+
+}
+
+.images {
+  margin: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.images figure {
+  min-width: 270px;
+
+}
+
+
+
+figure img {
+  width: 100%;
+
+
+}
+
+div.mainvid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  
+}
+
+.mainvid video {
+  width: 100%;
+  height: 100%;
+}
+
+
+.slide-in-right {
+  opacity: 0;
+  animation: slide-in-right 1.5s 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+}
+
+@keyframes slide-in-right {
+  0% {
+
+    transform: translateX(-300px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+}
+
+@media (max-width: 320px) {
+
+
+  .images figure {
+    flex: 1 50%;
+    padding: 20px;
+
+  } 
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  article {
+
+    font-size: 1rem;
+    margin: auto fit-content;
+    padding: auto fit-content;
+    box-sizing: border-box;
+
+
+  }
+
+aside {
+  font-size: 1rem;
+    margin: auto fit-content;
+    padding: auto fit-content;
+    box-sizing: border-box;
+
+}
+
+  
+
+  footer a {
+    font-size: 1rem;
+    margin: auto fit-content;
+    padding: auto fit-content;
+    box-sizing: border-box;
+
+
+  }
+
+}
+
+@media (max-width: 768px) {
+  h1.em {
+    visibility: hidden;
+    position: relative;
+
+  }
+
+  h1.em:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    content: "U.A.E";
+  }
+}
+
